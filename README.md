@@ -1,1 +1,1 @@
-﻿# This is my profile web, don't be hesitate to take a look :)
+﻿# This is my profile web, feel free to take a look :)
