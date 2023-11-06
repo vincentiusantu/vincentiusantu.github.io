@@ -77,7 +77,8 @@ export default function Home() {
                                 'Software Developer'
                             ],
                             autoStart: true,
-                            loop: true
+                            loop: true,
+                            deleteSpeed: 20
                         }}
                     />
                 </div>

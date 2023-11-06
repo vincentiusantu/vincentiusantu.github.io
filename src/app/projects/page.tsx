@@ -66,7 +66,7 @@ export default function Page() {
                     </motion.div>
                     <div className="flex justify-center items-center mt-20">
                         <motion.div variants={content2} whileHover={{ scale: 1.05 }} className="hover:scale-105 duration-200 hover:shadow-lg hover:shadow-emerald-300 box-border h-80 w-60 p-2 border-2 mx-6 rounded">
-                            <a href="https://daskomlab.com/">    
+                            <a target="_blank" href="https://daskomlab.com/">    
                                 <Image
                                     src="/daskomweb.png"
                                     width={300}
@@ -83,7 +83,7 @@ export default function Page() {
                             </a>
                         </motion.div>
                         <motion.div variants={content2} whileHover={{ scale: 1.05 }} className="hover:scale-105 duration-200 hover:shadow-lg hover:shadow-cyan-300 box-border h-80 w-60 p-2 border-2 mx-6 rounded">
-                            <a href="https://github.com/vincentiusantu/rockpaperscissors-ml-project">
+                            <a target="_blank" href="https://github.com/vincentiusantu/rockpaperscissors-ml-project">
                                 <Image
                                     src="/rockpaperscissors.png"
                                     width={300}
@@ -100,7 +100,7 @@ export default function Page() {
                             </a>
                         </motion.div>
                         <motion.div variants={content2} whileHover={{ scale: 1.05 }} className="hover:scale-105 duration-200 hover:shadow-lg hover:shadow-fuchsia-300 box-border h-80 w-60 p-2 border-2 mx-6 rounded">
-                            <a href="https://daskomrecruitment.site/">
+                            <a target="_blank" href="https://daskomrecruitment.site/">
                                 <Image
                                     src="/daskomrec23.png"
                                     width={300}
