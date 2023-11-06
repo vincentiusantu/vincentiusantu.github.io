@@ -1,0 +1,25 @@
+@import url(https://db.onlinewebfonts.com/c/e9d9ecf545e95474ea2fc6bfb69554fc?family=Maharlika+Regular);
+@import url(https://db.onlinewebfonts.com/c/bd3db488e08210f8b9f12a952e630532?family=Arsenica+Trial+Regular);
+@import url(https://db.onlinewebfonts.com/c/506afca7e464ad8f5c4d145bf04ebcd7?family=FSP+DEMO+-+TT+Commons+Pro);
+
+.hi_there {
+    font-family: "Maharlika Regular";
+}
+
+.content {
+    font-family: "Arsenica Trial Regular";
+}
+.detail {
+    font-family: "FSP DEMO - TT Commons Pro";
+}
+.typewriter {
+    white-space: pre-wrap;
+}
+
+.line::after {
+    content: "";
+    border-bottom: 5px solid black;
+    width: 350px;
+    display: block;
+    margin: 20px auto;
+}
