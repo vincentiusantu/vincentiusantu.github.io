@@ -42,7 +42,7 @@ export default function Home() {
                         initial="hidden"
                         animate="show"
                     >
-                        <motion.div variants={content} className={`${styles.hi_there} text-7xl sm:text-8xl flex justify-center items-center`}>
+                        <motion.div variants={content} className={`${styles.hi_there} sm:mt-0 mt-10 text-5xl sm:text-8xl flex justify-center items-center`}>
                             HI THERE!!!
                         </motion.div>
                         <motion.div variants={content} className="my-5 flex justify-center items-center">
@@ -63,7 +63,7 @@ export default function Home() {
                                 />
                             </div>
                         </motion.div>
-                        <motion.div variants={content} className={`${styles.content} text-2xl sm:text-5xl flex justify-center items-center`}>
+                        <motion.div variants={content} className={`${styles.content} text-lg sm:text-5xl flex justify-center items-center`}>
                             I'm Vincentius Adisurya Fransisco Antu
                         </motion.div>
                     </motion.div>

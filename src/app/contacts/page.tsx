@@ -44,7 +44,7 @@ export default function Page() {
                     animate="show"
                     className="h-full sm:flex sm:justify-around sm:items-center">
                         <motion.div variants={content}>
-                            <div className={`${arimo.className} text-6xl sm:pt-0 sm:px-0 sm:mt-0 sm:mb-0 mb-5 px-7 pt-5 mt-20`}>
+                            <div className={`${arimo.className} flex justify-center sm:flex-none text-4xl sm:text-6xl sm:pt-0 sm:px-0 sm:mt-0 sm:mb-0 mb-5 px-7 pt-5 mt-20`}>
                                 WORK <br className="hidden sm:block"/>WITH ME
                             </div>
                         </motion.div>

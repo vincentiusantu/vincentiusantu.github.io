@@ -61,10 +61,10 @@ export default function Page() {
                 initial="hidden"
                 animate="show"
                 className="py-10">
-                    <motion.div variants={content} className={`${arimo.className} text-6xl flex justify-center items-center`}>
+                    <motion.div variants={content} className={`${arimo.className} text-3xl sm:text-6xl flex justify-center items-center`}>
                         MY PROJECT
                     </motion.div>
-                    <div className="grid grid-rows-3 gap-4 sm:flex justify-center items-center mt-20">
+                    <div className="grid grid-rows-3 gap-4 sm:flex justify-center items-center mt-10 sm:mt-20">
                         <motion.div variants={content2} whileHover={{ scale: 1.05 }} className="hover:scale-105 duration-200 hover:shadow-lg hover:shadow-emerald-300 box-border sm:h-80 sm:w-60 w-80 p-2 border-2 mx-6 rounded">
                             <a target="_blank" href="https://daskomlab.com/">    
                                 <Image

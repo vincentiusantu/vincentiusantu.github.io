@@ -42,19 +42,19 @@ export default function Page() {
                 initial="hidden"
                 animate="show"
                 className="pt-20 mb-20">
-                    <motion.div variants={content} className={`${arimo.className} text-6xl mx-10 mb-20`}>
-                        COVERAGE<br/>AREA
+                    <motion.div variants={content} className={`${arimo.className} grid grid-rows-2 text-4xl sm:text-6xl mx-10 mb-10 sm:mb-20`}>
+                        <div className="flex justify-center mb-3">COVERAGE</div><div className="flex justify-center">AREA</div>
                     </motion.div>
-                    <div id="row1" className="flex justify-evenly items-center">
+                    <div id="row1" className="grid grid-rows-2 justify-center sm:flex sm:justify-evenly sm:items-center">
                         <motion.div 
                         variants={content} 
                         whileHover={{ scale: 1.05 }}
-                        className="duration-200 hover:shadow-lg hover:shadow-orange-300 bg-[#9ca3af] box-border h-16 w-55 p-5 rounded-3xl flex flex-row">
+                        className="mb-5 sm-mb-0 duration-200 hover:shadow-lg hover:shadow-orange-300 bg-[#9ca3af] box-border h-16 w-55 p-5 rounded-3xl flex flex-row">
                             <Image
                                 src="/web-image.png"
                                 width={24}
                                 height={24}
-                                className="block"
+                                className="hidden md:block"
                                 alt="My Photo"
                             />
                             <div className={`${styles.content} pl-3`}>
@@ -64,12 +64,12 @@ export default function Page() {
                         <motion.div 
                         variants={content} 
                         whileHover={{ scale: 1.05 }}
-                        className="duration-200 hover:shadow-lg hover:shadow-violet-300 bg-[#9ca3af] box-border h-16 w-55 p-5 rounded-3xl flex flex-row">
+                        className="mb-5 sm-mb-0 duration-200 hover:shadow-lg hover:shadow-violet-300 bg-[#9ca3af] box-border h-16 w-55 p-5 rounded-3xl flex flex-row">
                             <Image
                                 src="/iot-image.png"
                                 width={24}
                                 height={24}
-                                className="block"
+                                className="hidden md:block"
                                 alt="My Photo"
                             />
                             <div className={`${styles.content} pl-3`}>
@@ -77,16 +77,16 @@ export default function Page() {
                             </div>
                         </motion.div>
                     </div>
-                    <div id="row2" className="flex justify-center items-center mt-10">
+                    <div id="row2" className="flex justify-center items-center sm:mt-10">
                         <motion.div 
                         variants={content} 
                         whileHover={{ scale: 1.05 }}
-                        className="duration-200 hover:shadow-lg hover:shadow-lime-300 bg-[#9ca3af] box-border h-16 w-80 p-5 rounded-3xl flex flex-row">
+                        className="mb-5 sm-mb-0 duration-200 hover:shadow-lg hover:shadow-lime-300 bg-[#9ca3af] box-border h-16 w-50 sm:w-80 p-5 rounded-3xl flex flex-row">
                             <Image
                                 src="/ml-image.png"
                                 width={24}
                                 height={24}
-                                className="block"
+                                className="hidden md:block"
                                 alt="My Photo"
                             />
                             <div className={`${styles.content} pl-3`}>
