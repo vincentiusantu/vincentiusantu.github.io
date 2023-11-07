@@ -64,14 +64,14 @@ export default function Page() {
                     <motion.div variants={content} className={`${arimo.className} text-6xl flex justify-center items-center`}>
                         MY PROJECT
                     </motion.div>
-                    <div className="flex justify-center items-center mt-20">
-                        <motion.div variants={content2} whileHover={{ scale: 1.05 }} className="hover:scale-105 duration-200 hover:shadow-lg hover:shadow-emerald-300 box-border h-80 w-60 p-2 border-2 mx-6 rounded">
+                    <div className="grid grid-rows-3 gap-4 sm:flex justify-center items-center mt-20">
+                        <motion.div variants={content2} whileHover={{ scale: 1.05 }} className="hover:scale-105 duration-200 hover:shadow-lg hover:shadow-emerald-300 box-border sm:h-80 sm:w-60 w-80 p-2 border-2 mx-6 rounded">
                             <a target="_blank" href="https://daskomlab.com/">    
                                 <Image
                                     src="/daskomweb.png"
                                     width={300}
                                     height={300}
-                                    className="hidden md:block"
+                                    className="block"
                                     alt="My Photo"
                                 />
                                 <div className={`${styles.content} text-lg`}>
@@ -82,13 +82,13 @@ export default function Page() {
                                 </div>
                             </a>
                         </motion.div>
-                        <motion.div variants={content2} whileHover={{ scale: 1.05 }} className="hover:scale-105 duration-200 hover:shadow-lg hover:shadow-cyan-300 box-border h-80 w-60 p-2 border-2 mx-6 rounded">
+                        <motion.div variants={content2} whileHover={{ scale: 1.05 }} className="hover:scale-105 duration-200 hover:shadow-lg hover:shadow-cyan-300 box-border sm:h-80 sm:w-60 w-80 p-2 border-2 mx-6 rounded">
                             <a target="_blank" href="https://github.com/vincentiusantu/rockpaperscissors-ml-project">
                                 <Image
                                     src="/rockpaperscissors.png"
                                     width={300}
                                     height={300}
-                                    className="hidden md:block"
+                                    className="block"
                                     alt="My Photo"
                                 />
                                 <div className={`${styles.content} text-lg`}>
@@ -99,13 +99,13 @@ export default function Page() {
                                 </div>
                             </a>
                         </motion.div>
-                        <motion.div variants={content2} whileHover={{ scale: 1.05 }} className="hover:scale-105 duration-200 hover:shadow-lg hover:shadow-fuchsia-300 box-border h-80 w-60 p-2 border-2 mx-6 rounded">
+                        <motion.div variants={content2} whileHover={{ scale: 1.05 }} className="hover:scale-105 duration-200 hover:shadow-lg hover:shadow-fuchsia-300 box-border sm:h-80 sm:w-60 w-80 p-2 border-2 mx-6 rounded">
                             <a target="_blank" href="https://daskomrecruitment.site/">
                                 <Image
                                     src="/daskomrec23.png"
                                     width={300}
                                     height={300}
-                                    className="hidden md:block"
+                                    className="block"
                                     alt="My Photo"
                                 />
                                 <div className={`${styles.content} text-lg`}>

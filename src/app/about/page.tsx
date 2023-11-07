@@ -50,7 +50,7 @@ export default function Page() {
                         ABOUT ME
                     </motion.div>
                     <motion.div variants={content} className={`${styles.line}`}></motion.div>
-                    <motion.div variants={content} className="text-center text-xl box-border h-100 w-100 p-20 flex justify-center items-center">
+                    <motion.div variants={content} className="text-center text-lg sm:text-xl box-border h-100 w-100 p-10 sm:p-20 flex justify-center items-center">
                         <motion.div variants={content} className={`${styles.content}`}>
                             <strong>Lifelong Learner</strong>, that's how I describe myself. Have an interest in learning things. Since I graduated from high school, I've had an interest in programming. Currently, I'm deepening <b>Software Engineering</b>, <b>Internet of Things</b>, and <b>Machine Learning</b>. Maybe there will be interesting things in my life in the future, but who knows? Let's keep going. See ya!!!
                         </motion.div>

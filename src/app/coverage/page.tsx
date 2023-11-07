@@ -54,7 +54,7 @@ export default function Page() {
                                 src="/web-image.png"
                                 width={24}
                                 height={24}
-                                className="hidden md:block"
+                                className="block"
                                 alt="My Photo"
                             />
                             <div className={`${styles.content} pl-3`}>
@@ -69,7 +69,7 @@ export default function Page() {
                                 src="/iot-image.png"
                                 width={24}
                                 height={24}
-                                className="hidden md:block"
+                                className="block"
                                 alt="My Photo"
                             />
                             <div className={`${styles.content} pl-3`}>
@@ -86,7 +86,7 @@ export default function Page() {
                                 src="/ml-image.png"
                                 width={24}
                                 height={24}
-                                className="hidden md:block"
+                                className="block"
                                 alt="My Photo"
                             />
                             <div className={`${styles.content} pl-3`}>

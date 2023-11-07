@@ -42,7 +42,7 @@ export default function Home() {
                         initial="hidden"
                         animate="show"
                     >
-                        <motion.div variants={content} className={`${styles.hi_there} text-8xl flex justify-center items-center`}>
+                        <motion.div variants={content} className={`${styles.hi_there} text-7xl sm:text-8xl flex justify-center items-center`}>
                             HI THERE!!!
                         </motion.div>
                         <motion.div variants={content} className="my-5 flex justify-center items-center">
@@ -58,12 +58,12 @@ export default function Home() {
                                     src="/CEN2.jpg"
                                     width={300}
                                     height={300}
-                                    className="absolute top-0 left-0 opacity-0 transition-opacity duration-300 transform hover:opacity-100"
+                                    className="absolute top-0 left-0 opacity-0 transition-opacity duration-300 transform sm:hover:opacity-100"
                                     alt="My Photo"
                                 />
                             </div>
                         </motion.div>
-                        <motion.div variants={content} className={`${styles.content} text-5xl flex justify-center items-center`}>
+                        <motion.div variants={content} className={`${styles.content} text-2xl sm:text-5xl flex justify-center items-center`}>
                             I'm Vincentius Adisurya Fransisco Antu
                         </motion.div>
                     </motion.div>
