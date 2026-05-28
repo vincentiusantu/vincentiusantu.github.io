@@ -3,25 +3,35 @@
 @import url(https://db.onlinewebfonts.com/c/506afca7e464ad8f5c4d145bf04ebcd7?family=FSP+DEMO+-+TT+Commons+Pro);
 
 .hi_there {
-    font-family: "Maharlika Regular";
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--accent-cyan);
+  letter-spacing: -0.02em;
 }
 
 .content {
-    font-family: "Arsenica Trial Regular";
+  font-family: 'Inter', sans-serif;
+  color: var(--text-primary);
 }
+
 .detail {
-    font-family: "FSP DEMO - TT Commons Pro";
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
 }
+
 .typewriter {
-    white-space: pre-wrap;
+  white-space: pre-wrap;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--accent-cyan);
 }
 
 .line::after {
-    content: "";
-    border-bottom: 5px solid black;
-    width: 350px;
-    display: block;
-    margin: 20px auto;
+  content: "";
+  border-bottom: 1px solid var(--border-bright);
+  width: 350px;
+  display: block;
+  margin: 20px auto;
 }
 
 @media (max-width: 600px) {
