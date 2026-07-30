@@ -64,7 +64,7 @@ const skills = [
         color: "#f0883e",
         tagline: "Full stack, clean code",
         description: "Building and maintaining web applications for real-world use. Experience spanning front-end interfaces and back-end systems, including digital payment and recruitment platforms.",
-        stack: ["JavaScript", "TypeScript", "Next.js", "Go", "Git"],
+        stack: ["Go", "Laravel", "Next.js", "Node.js", "Git"],
         highlights: [
             "Daskomlab web app (algorithm practicum platform)",
             "Daskom open recruitment website (Back End)",

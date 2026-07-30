@@ -37,11 +37,25 @@ const projects = [
         color: "#57c98a",
     },
     {
+        title: "SIM-Antri",
+        image: "/antrian.png",
+        description: "A digital queue management system that optimizes patient flow in hospitals by automating registration, scheduling, and real-time queue tracking to minimize waiting times and enhance service efficiency.",
+        tags: ["Web Dev", "Full Stack", "Laravel", "Hospital Management", "Queue System"],
+        color: "#00d9e0",
+    },
+    {
         title: "Automatic Feeder for Catfish Cultivation",
         image: "/lele.png",
         description: "An automated feeder system for catfish farming, controlled by time input, fish count, and average weight of catfish per pond — enabling precise and efficient feeding management.",
         tags: ["IoT", "Embedded Systems", "Arduino", "Sensors"],
         color: "#f0883e",
+    },
+    {
+        title: "Comfort Zone",
+        image: "/comfortzone.png",
+        description: "A student-counselor chat platform that enables safe, confidential communication for students to share personal or academic concerns with school guidance counselors.",
+        tags: ["Web Dev", "Full Stack", "Laravel", "Guidance Counseling", "Chat Application"],
+        color: "#e06c75",
     },
     {
         title: "Human Vital Sign Detection via Radar",
@@ -61,7 +75,7 @@ const projects = [
         title: "Oripay",
         image: "/oripay.png",
         description: "A fintech application that simplifies inter-wallet transfers and various payment transactions, providing a seamless and unified digital payment experience.",
-        tags: ["Web Dev", "Back End", "Fintech", "System Integration"],
+        tags: ["Web Dev", "Full Stack", "Fintech", "Go", "System Integration"],
         color: "#7c6fe0",
     },
 ]
